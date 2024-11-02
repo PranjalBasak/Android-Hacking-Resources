@@ -37,3 +37,20 @@ The layer provides core C/C++ Libraries and Java Based Libraries like Media, Gra
  Linux Kernel is heart of the android architecture. It manages all the available drivers such as display drivers, camera drivers, Bluetooth drivers, audio drivers, memory drivers, etc. which are required during the runtime. The Linux Kernel will provide an abstraction layer between the device hardware and the other components of android architecture. 
 
  ![alt text](image-7.png)
+
+
+ # Android App Components
+ 
+ - AndroidManifest.xml: It consists of the Application’s package name, build version, access rights details, referenced libraries, and other metadata in binary XML format.
+
+- classes.dex: These are the classes compiled in .dex file format understandable by Dalvik VM.
+
+- resources.arsc: These are the precompiled resources.
+
+- res/ folder: These are the resources that could not be compiled into resources.arsc.
+
+- lib/ folder: It consists of compiled code for native implementation.
+
+- assets/ folder: These are the application’s assets.
+
+
